@@ -3,6 +3,7 @@ import {ReactComponent as FinanceLogo} from '../../images/Finance_Ledger_Logo.sv
 import Container from "../shared/container/container";
 import Button from "../shared/button/button";
 import {ReactComponent as Vector} from '../../images/Vector.svg';
+
 const Header = () => {
 
     return (
@@ -16,9 +17,9 @@ const Header = () => {
                     <ul className='menu-list'>
                         <li className='menu-item'>Home</li>
                         <li className='menu-item'>About</li>
-                        <li className='menu-item'>Cases</li>
-                        <li className='menu-item'>Blog</li>
-                        <li className='menu-item'>Contact</li>
+                        <li className='menu-item'><a href="#cases"                                                    >Cases</a></li>
+                        <li className='menu-item'><a href='#blog'>Blog</a></li>
+                        <li className='menu-item'><a href='#contacts'>Contact</a></li>
                     </ul>
                 </div>
                 <div className="hero">

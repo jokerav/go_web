@@ -8,7 +8,7 @@ import Button from "../shared/button/button";
 
 const Blog = () => {
     return (
-        <section className='blog'>
+        <section className='blog' id='blog'>
             <div className='blog-pic'>
                 <picture className='blog-picture'>
                     <source  srcSet={`${blog3202x} 2x, ${blog320} 1x`}

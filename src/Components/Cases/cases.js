@@ -32,7 +32,7 @@ import cases62xwp from '../../images/images/cases/cases6@2x.webp'
 
 const Cases = () => {
     return (
-        <section className='cases'>
+        <section className='cases' id='cases'>
             <Container>
                 <p className='up-title'>This is what we do</p>
                 <p className='title'>Business Cases</p>
