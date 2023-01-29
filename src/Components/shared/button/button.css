@@ -1,0 +1,17 @@
+.btn {
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.388;
+  text-align: center;
+  border-radius: 5px;
+  color: #FFFFFF;
+  height: 57px;
+}
+.btn:hover, .btn:focus {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=button.css.map */

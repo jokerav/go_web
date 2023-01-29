@@ -1,0 +1,145 @@
+:export {
+  accentGreen: rgb(40, 167, 69);
+  accentBlue: rgb(2, 132, 208);
+  textLight: rgb(255, 255, 255);
+}
+
+.team {
+  padding-top: 72px;
+  padding-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .team {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team {
+    padding-top: 80px;
+    padding-bottom: 88px;
+  }
+}
+
+.team-above-title {
+  color: rgb(51, 51, 51);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375;
+  margin-bottom: 16px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .team-above-title {
+    font-size: 20px;
+    line-height: 1.65;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .team-above-title {
+    font-size: 20px;
+    line-height: 1.375;
+  }
+}
+
+.team-title {
+  color: rgb(51, 51, 51);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.375;
+  text-align: left;
+  margin-bottom: 24px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .team-title {
+    font-size: 40px;
+  }
+}
+
+.team-sub-title {
+  color: rgb(51, 51, 51);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375;
+  text-align: center;
+  padding-bottom: 63px;
+}
+@media screen and (min-width: 768px) {
+  .team-sub-title {
+    padding-bottom: 24px;
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .team-sub-title {
+    padding-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .team-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.team-item {
+  margin-bottom: 30px;
+}
+.team-item:last-child {
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .team-item {
+    margin-bottom: 0px;
+  }
+  .team-item:not(:last-child) {
+    margin-right: 18px;
+  }
+}
+
+.team-name {
+  color: rgb(51, 51, 51);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.35;
+  text-align: center;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .team-name {
+    font-size: 32px;
+    line-height: 1;
+  }
+}
+
+.team-position {
+  color: rgb(51, 51, 51);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .team-position {
+    font-size: 18px;
+  }
+}
+
+.team-photo {
+  width: 280px;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .team-photo {
+    width: 223px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .team-photo {
+    width: 480px;
+  }
+}
+
+/*# sourceMappingURL=team.css.map */

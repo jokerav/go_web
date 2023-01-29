@@ -1,0 +1,119 @@
+@import '../../vars';
+
+.team {
+  padding-top: 72px;
+  padding-bottom: 50px;
+  @media screen and (min-width: 768px) {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+  @media screen and (min-width: 768px) {
+    padding-top: 80px;
+    padding-bottom: 88px;
+  }
+}
+
+.team-above-title {
+  color: $text-dark;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375;
+  margin-bottom: 16px;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    line-height: 1.65;
+  }
+  @media screen and (min-width: 1360px) {
+    font-size: 20px;
+    line-height: 1.375;
+  }
+}
+
+.team-title {
+  color: $text-dark;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.375;
+  text-align: left;
+  margin-bottom: 24px;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+  }
+}
+
+.team-sub-title {
+  color: $text-dark;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375;
+  text-align: center;
+  padding-bottom: 63px;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 24px;
+    font-size: 18px;
+  }
+  @media screen and (min-width: 1360px) {
+    padding-bottom: 36px;
+  }
+}
+
+.team-list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.team-item {
+  margin-bottom: 30px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0px;
+    &:not(:last-child) {
+      margin-right: 18px;
+    }
+  }
+}
+
+.team-name {
+  color: $text-dark;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.35;
+  text-align: center;
+  margin-bottom: 8px;
+  @media screen and (min-width: 768px) {
+    font-size: 32px;
+    line-height: 1.0;
+  }
+}
+
+.team-position {
+  color: $text-dark;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+
+  }
+
+}
+
+.team-photo {
+  width: 280px;
+  margin-bottom: 16px;
+  @media screen and (min-width: 768px) {
+    width: 223px;
+  }
+  @media screen and (min-width: 1360px) {
+    width: 480px;
+  }
+
+}

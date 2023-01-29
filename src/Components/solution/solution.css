@@ -1,0 +1,140 @@
+:export {
+  accentGreen: rgb(40, 167, 69);
+  accentBlue: rgb(2, 132, 208);
+  textLight: rgb(255, 255, 255);
+}
+
+@media screen and (min-width: 321px) {
+  .solutions {
+    display: flex;
+    height: 589px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .solutions {
+    height: 460px;
+  }
+}
+
+.solutions-picture {
+  height: 100%;
+  object-position: 200px 200px;
+  object-fit: cover;
+  overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  .solutions-picture {
+    width: calc(100% - 400px);
+  }
+}
+@media screen and (min-width: 1360px) {
+  .solutions-picture {
+    width: calc(100% - 690px);
+  }
+}
+
+.solutions-pic {
+  background-repeat: no-repeat;
+  background-image: image-set(url("../../images/images/home/people-768@2x.jpg") 2x, url("../../images/images/home/people-768.jpg") 1x);
+}
+@media screen and (min-width: 768px) {
+  .solutions-pic {
+    background-position: 50% 50%;
+    width: calc(100% - 400px);
+  }
+}
+@media screen and (min-width: 1360px) {
+  .solutions-pic {
+    height: 100%;
+    width: calc(100% - 690px);
+    background-image: image-set(url("../../images/images/home/people@2x.jpg") 2x, url("../../images/images/home/people.jpg") 1x);
+  }
+}
+
+@media screen and (min-width: 321px) {
+  .solution-img {
+    display: none;
+  }
+}
+
+.solution-inner {
+  background-color: rgb(40, 167, 69);
+}
+@media screen and (min-width: 768px) {
+  .solution-inner {
+    width: 400px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .solution-inner {
+    width: 690px;
+  }
+}
+
+.solutionContainer {
+  padding-top: 79px;
+  padding-bottom: 79px;
+}
+@media screen and (min-width: 768px) {
+  .solutionContainer {
+    padding-top: 62px;
+    padding-bottom: 62px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .solutionContainer {
+    padding-top: 80px;
+    padding-bottom: 86px;
+  }
+}
+
+.solutions-above-title {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 768px) {
+  .solutions-above-title {
+    font-size: 18px;
+  }
+}
+
+.solutions-title {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.375;
+  text-align: left;
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .solutions-title {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+}
+
+.solutions-sub-title {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375;
+  text-align: left;
+  padding-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .solutions-sub-title {
+    font-size: 18px;
+    line-height: 1.375;
+  }
+}
+
+.btn-solution {
+  width: 146px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(40, 167, 69);
+}
+
+/*# sourceMappingURL=solution.css.map */

@@ -1,0 +1,13 @@
+$accent-green: rgba(40, 167, 69, 1);
+$accent-blue: rgba(2, 132, 208, 1);
+$text-light: rgba(255, 255, 255, 1);
+$text-dark:rgba(51, 51, 51, 1);
+$text-grey: rgba(128, 128, 128, 1);
+$bcg-light: #B2B2B2;
+$bcg-dark:rgba(244, 244, 244, 1);
+
+:export {
+  accentGreen: $accent-green;
+  accentBlue: $accent-blue;
+  textLight:$text-light;
+}

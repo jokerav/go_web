@@ -1,0 +1,117 @@
+@import '../../vars';
+
+.solutions {
+  @media screen and (min-width: 321px) {
+    display: flex;
+    height: 589px;
+  }
+  @media screen and (min-width: 1360px) {
+    height: 460px;
+  }
+}
+
+.solutions-picture {
+  height: 100%;
+  object-position: 200px 200px;
+  object-fit: cover;
+  overflow: hidden;
+  @media screen and (min-width: 768px) {
+    width: calc(100% - 400px);
+  }
+  @media screen and (min-width: 1360px) {
+    width: calc(100% - 690px);
+  }
+}
+
+.solutions-pic {
+  background-repeat: no-repeat;
+  background-image: image-set(
+                  url("../../images/images/home/people-768@2x.jpg") 2x,
+                  url("../../images/images/home/people-768.jpg") 1x
+  );
+  @media screen and (min-width: 768px) {
+    background-position: 50% 50%;
+    width: calc(100% - 400px);
+  }
+  @media screen and (min-width: 1360px) {
+    height:100%;
+    width: calc(100% - 690px);
+    background-image: image-set(
+                    url("../../images/images/home/people@2x.jpg") 2x,
+                    url("../../images/images/home/people.jpg") 1x
+    );
+  }
+}
+
+.solution-img {
+  @media screen and (min-width: 321px) {
+    display: none;
+  }
+}
+
+.solution-inner {
+  background-color: $accent-green;
+
+  @media screen and (min-width: 768px) {
+    width: 400px;
+  }
+  @media screen and (min-width: 1360px) {
+    width: 690px;
+  }
+}
+
+.solutionContainer {
+  padding-top: 79px;
+  padding-bottom: 79px;
+  @media screen and (min-width: 768px) {
+    padding-top: 62px;
+    padding-bottom: 62px;
+  }
+  @media screen and (min-width: 1360px) {
+    padding-top: 80px;
+    padding-bottom: 86px;
+  }
+}
+
+.solutions-above-title {
+  color: $text-light;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375;
+  margin-bottom: 16px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+  }
+}
+
+.solutions-title {
+  color: $text-light;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 1.375;
+  text-align: left;
+  margin-bottom: 24px;
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+    line-height: 1.2;
+  }
+}
+
+.solutions-sub-title {
+  color: $text-light;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375;
+  text-align: left;
+  padding-bottom: 24px;
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: 1.375;
+  }
+}
+
+.btn-solution {
+  width: 146px;
+  border: 1px solid $text-light;
+  background-color: $accent-green;
+}
