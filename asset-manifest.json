@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/go_web/static/css/main.11693b81.css",
-    "main.js": "/go_web/static/js/main.aeada950.js",
+    "main.css": "/go_web/static/css/main.21c13d8a.css",
+    "main.js": "/go_web/static/js/main.1a2e2f97.js",
     "static/js/787.2c2448d3.chunk.js": "/go_web/static/js/787.2c2448d3.chunk.js",
     "static/media/showcase@2x.jpg": "/go_web/static/media/showcase@2x.342e457ae5c04595a79c.jpg",
     "static/media/showcase@2x.webp": "/go_web/static/media/showcase@2x.6718cc6851409ea4b6ba.webp",
@@ -57,12 +57,12 @@
     "static/media/Finance_Ledger_Logo.svg": "/go_web/static/media/Finance_Ledger_Logo.66d7bf2144e7fd6bac5acd30edc0e8a3.svg",
     "index.html": "/go_web/index.html",
     "static/media/Vector.svg": "/go_web/static/media/Vector.25b6c10f082e704fb31767512e22b4f9.svg",
-    "main.11693b81.css.map": "/go_web/static/css/main.11693b81.css.map",
-    "main.aeada950.js.map": "/go_web/static/js/main.aeada950.js.map",
+    "main.21c13d8a.css.map": "/go_web/static/css/main.21c13d8a.css.map",
+    "main.1a2e2f97.js.map": "/go_web/static/js/main.1a2e2f97.js.map",
     "787.2c2448d3.chunk.js.map": "/go_web/static/js/787.2c2448d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11693b81.css",
-    "static/js/main.aeada950.js"
+    "static/css/main.21c13d8a.css",
+    "static/js/main.1a2e2f97.js"
   ]
 }
