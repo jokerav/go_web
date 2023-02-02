@@ -1,0 +1,46 @@
+.footer {
+  background-color: rgb(51, 51, 51);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+@media screen and (min-width: 768px) {
+  .social {
+    margin-bottom: 10px;
+  }
+}
+
+.footer-social-item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.social-icon {
+  height: 35px;
+  width: 35px;
+  fill: rgb(255, 255, 255);
+  transition: fill 400ms linear;
+}
+.social-icon:hover, .social-icon:focus {
+  cursor: pointer;
+  fill: rgb(40, 167, 69);
+}
+
+.copyright {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .copyright {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

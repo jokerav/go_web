@@ -1,0 +1,40 @@
+@import "../../vars";
+.footer{
+  background-color: $text-dark;
+padding-top: 20px;
+  padding-bottom: 20px;
+}
+.social{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 10px;
+  }
+}
+.footer-social-item:not(:last-child){
+  margin-right: 25px;
+  }
+.social-icon{
+  height: 35px;
+  width: 35px;
+  fill: $text-light;
+  transition: fill 400ms linear;
+  &:hover,
+  &:focus{
+    cursor: pointer;
+    fill: $accent-green;
+  }
+}
+.copyright{
+color: $text-light;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.375;
+
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+  }
+
+}

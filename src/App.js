@@ -3,6 +3,8 @@ import Solutions from "./Components/solution/solution";
 import Cases from "./Components/Cases/cases";
 import Blog from "./Components/blog/blog";
 import Team from "./Components/team/team";
+import Contact from "./Components/contact/contact";
+import Footer from "./Components/footer/footer";
 
 function App() {
     return (
@@ -13,6 +15,8 @@ function App() {
                 <Cases/>
                 <Blog/>
                 <Team/>
+                <Contact/>
+                <Footer/>
         </div>
     );
 }
