@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/go_web/static/css/main.92a5a66e.css",
-    "main.js": "/go_web/static/js/main.98bab029.js",
+    "main.css": "/go_web/static/css/main.9c542c2e.css",
+    "main.js": "/go_web/static/js/main.2a90574f.js",
     "static/js/787.2c2448d3.chunk.js": "/go_web/static/js/787.2c2448d3.chunk.js",
     "static/media/showcase@2x.jpg": "/go_web/static/media/showcase@2x.342e457ae5c04595a79c.jpg",
     "static/media/showcase@2x.webp": "/go_web/static/media/showcase@2x.6718cc6851409ea4b6ba.webp",
-    "static/media/people-768@2x.jpg": "/go_web/static/media/people-768@2x.a03eca6cf3daa7dbebc0.jpg",
     "static/media/showcase.jpg": "/go_web/static/media/showcase.70e191927a3f1de4619c.jpg",
     "static/media/blog-320@2x.jpg": "/go_web/static/media/blog-320@2x.ae8a4f0fcba64c74dbd2.jpg",
     "static/media/blog-768@2x.jpg": "/go_web/static/media/blog-768@2x.ae8a4f0fcba64c74dbd2.jpg",
     "static/media/showcase.webp": "/go_web/static/media/showcase.ae588206237bf5dbfd39.webp",
     "static/media/people@2x.jpg": "/go_web/static/media/people@2x.025e71c2eb8b92a53d5b.jpg",
-    "static/media/people-320@2x.jpg": "/go_web/static/media/people-320@2x.f470e556208b01215285.jpg",
-    "static/media/people-768.jpg": "/go_web/static/media/people-768.6f0b0eaa29e627c0b8ef.jpg",
+    "static/media/people@2x.webp": "/go_web/static/media/people@2x.b884c02c969f0b02cc7a.webp",
     "static/media/blog-768.jpg": "/go_web/static/media/blog-768.76cf8db4769121040ec9.jpg",
     "static/media/people.jpg": "/go_web/static/media/people.f32f74cc55eb8b3518b7.jpg",
     "static/media/cases4@2x.jpg": "/go_web/static/media/cases4@2x.0fd629ab60bf5ec64c34.jpg",
     "static/media/person1@2x.jpg": "/go_web/static/media/person1@2x.660590a31044abfd971e.jpg",
     "static/media/cases4@2x.webp": "/go_web/static/media/cases4@2x.a4b07b0a283909a666d2.webp",
     "static/media/blog@2x.jpg": "/go_web/static/media/blog@2x.4f26f505992de28a717c.jpg",
-    "static/media/people-320.jpg": "/go_web/static/media/people-320.030fa64d4776d6de8a99.jpg",
     "static/media/cases1@2x.jpg": "/go_web/static/media/cases1@2x.c2a8d14c6fc4555a3e9a.jpg",
+    "static/media/people.webp": "/go_web/static/media/people.cb088a9119ca4d5243c1.webp",
     "static/media/blog-320.jpg": "/go_web/static/media/blog-320.0641de1a16eb119200ee.jpg",
     "static/media/contact@2x.jpg": "/go_web/static/media/contact@2x.91f1aef42b5121d5cade.jpg",
     "static/media/cases6@2x.jpg": "/go_web/static/media/cases6@2x.1eb8161b12e25fdd87bc.jpg",
@@ -65,12 +63,12 @@
     "static/media/linkdln.svg": "/go_web/static/media/linkdln.1e588b1e0bf24a8b12c5ffdbde52ae6b.svg",
     "static/media/facebook.svg": "/go_web/static/media/facebook.03fb767b3afb359385728e88e113a60e.svg",
     "static/media/Vector.svg": "/go_web/static/media/Vector.25b6c10f082e704fb31767512e22b4f9.svg",
-    "main.92a5a66e.css.map": "/go_web/static/css/main.92a5a66e.css.map",
-    "main.98bab029.js.map": "/go_web/static/js/main.98bab029.js.map",
+    "main.9c542c2e.css.map": "/go_web/static/css/main.9c542c2e.css.map",
+    "main.2a90574f.js.map": "/go_web/static/js/main.2a90574f.js.map",
     "787.2c2448d3.chunk.js.map": "/go_web/static/js/787.2c2448d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.92a5a66e.css",
-    "static/js/main.98bab029.js"
+    "static/css/main.9c542c2e.css",
+    "static/js/main.2a90574f.js"
   ]
 }
