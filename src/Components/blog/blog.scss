@@ -1,7 +1,7 @@
 @import '../../vars';
 
 .blog {
-  @media screen and (min-width: 321px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     flex-direction: row-reverse;
     height: 493px;
@@ -11,51 +11,27 @@
   }
 }
 
-.blog-picture {
-  height: 100%;
-  object-position: 200px 200px;
-  object-fit: cover;
-  overflow: hidden;
-  @media screen and (min-width: 768px) {
-    width: calc(100% - 400px);
-  }
-  @media screen and (min-width: 1360px) {
-    width: calc(100% - 690px);
-  }
-}
 
 .blog-pic {
-  background-repeat: no-repeat;
-  height: 100%;
   background-image: image-set(
-                  url("../../images/images/home/blog-768@2x.jpg") 2x,
-                  url("../../images/images/home/blog-768.jpg") 1x
+                  url("../../images/images/home/blog@2x.webp") 2x,
+                  url("../../images/images/home/blog.webp") 1x,
+                  url("../../images/images/home/blog@2x.jpg") 2x,
+                  url("../../images/images/home/blog.jpg") 1x
   );
+  max-width: 100%;
+  height: 247px;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
   @media screen and (min-width: 768px) {
-    background-position: 50% 50%;
     width: calc(100% - 400px);
-    //background-image: image-set(
-    //                url("../../images/images/home/blog-768@2x.jpg") 2x,
-    //                url("../../images/images/home/blog-768.jpg") 1x
-    //);
+    height: 100%;
   }
   @media screen and (min-width: 1360px) {
-    height:100%;
     width: calc(100% - 690px);
-    background-image: image-set(
-                    url("../../images/images/home/blog@2x.jpg") 2x,
-                    url("../../images/images/home/blog@2x.jpg") 1x
-    );
   }
 }
-
-
-.blog-img {
-  @media screen and (min-width: 321px) {
-    display: none;
-  }
-}
-
 .blog-inner {
   background-color: $accent-blue;
   @media screen and (min-width: 768px) {
@@ -65,7 +41,6 @@
     width: 690px;
   }
 }
-
 
 .blogContainer {
   padding-top: 79px;
@@ -104,7 +79,7 @@
   }
 }
 
-.blog-sub-title{
+.blog-sub-title {
   color: $text-light;
   font-size: 16px;
   font-weight: 400;
@@ -117,7 +92,7 @@
   }
 }
 
-.btn-blog {
+.blog-btn {
   width: 146px;
   border: 1px solid $text-light;
   background-color: $accent-blue;

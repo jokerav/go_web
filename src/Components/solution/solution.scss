@@ -21,10 +21,10 @@
   height: 220px;
   background-size: cover;
   background-position: 50%;
+  background-repeat: no-repeat;
   @media screen and (min-width: 768px) {
     width: calc(100% - 400px);
     height: 100%;
-
   }
   @media screen and (min-width: 1360px) {
     width: calc(100% - 690px);
@@ -91,7 +91,7 @@
   }
 }
 
-.btn-solution {
+.solution-btn {
   width: 146px;
   border: 1px solid $text-light;
   background-color: $accent-green;

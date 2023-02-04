@@ -16,7 +16,7 @@ const Solutions = () => {
                         Voluptate, ipsum
                         dignissimos quae laudantium asperiores nam aliquid impedit harum illum dolore explicabo ab
                         dolores itaque rerum temporibus doloribus iste maiores deleniti?</p>
-                    <Button nameClass="btn-solution">Read More</Button>
+                    <Button nameClass="solution-btn">Read More</Button>
                 </Container>
             </div>
 

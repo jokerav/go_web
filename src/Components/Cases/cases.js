@@ -34,51 +34,51 @@ const Cases = () => {
     return (
         <section className='cases' id='cases'>
             <Container>
-                <p className='up-title'>This is what we do</p>
-                <p className='title'>Business Cases</p>
-                <p className='sub-title'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+                <p className='cases-up-title'>This is what we do</p>
+                <p className='cases-title'>Business Cases</p>
+                <p className='cases-sub-title'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto,
                     sapiente!</p>
                 <ul className='cases-list'>
                     <li className='cases-item'>
-                        <picture className='picture'>
+                        <picture>
                             <source srcSet={`${cases12xwp} 2x, ${cases1wp} 1x, ${cases12x} 2x, ${cases1} 1x`}
                             />
-                            <img src="#" alt="Пример кейса" className="case-image"/>
+                            <img src="#" alt="Пример кейса" className="cases-image"/>
                         </picture>
                     </li>
                     <li className='cases-item'>
                         <picture className='picture'>
                             <source srcSet={`${cases22xwp} 2x, ${cases2wp} 1x, ${cases22x} 2x, ${cases2} 1x`}
                             />
-                            <img src="#" alt="Пример кейса"  className="case-image"/>
+                            <img src="#" alt="Пример кейса"  className="cases-image"/>
                         </picture>
                     </li>
                     <li className='cases-item'>
                         <picture className='picture'>
                             <source srcSet={`${cases32xwp} 2x, ${cases3wp} 1x, ${cases32x} 2x, ${cases3} 1x`}
                             />
-                            <img src="#" alt="Пример кейса" className="case-image"/>
+                            <img src="#" alt="Пример кейса" className="cases-image"/>
                         </picture>
                     </li>
                     <li className='cases-item'>
                         <picture className='picture'>
                             <source srcSet={`${cases42xwp} 2x, ${cases4wp} 1x, ${cases42x} 2x, ${cases4} 1x`}
                             />
-                            <img src="#" alt="Пример кейса" className="case-image"/>
+                            <img src="#" alt="Пример кейса" className="cases-image"/>
                         </picture>
                     </li>
                     <li className='cases-item'>
                         <picture className='picture'>
                             <source srcSet={`${cases52xwp} 2x, ${cases5wp} 1x, ${cases52x} 2x, ${cases5} 1x`}
                             />
-                            <img src="#" alt="Пример кейса" className="case-image"/>
+                            <img src="#" alt="Пример кейса" className="cases-image"/>
                         </picture>
                     </li>
                     <li className='cases-item'>
                         <picture className='picture'>
                             <source srcSet={`${cases62xwp} 2x, ${cases6wp} 1x, ${cases62x} 2x, ${cases6} 1x`}
                             />
-                            <img src="#" alt="Пример кейса" className="case-image"/>
+                            <img src="#" alt="Пример кейса" className="cases-image"/>
                         </picture>
                     </li>
                 </ul>
