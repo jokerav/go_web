@@ -1,8 +1,8 @@
 .header {
   padding-top: 22px;
   padding-bottom: 104px;
-  object-fit: cover;
-  background-position: 50% 0%;
+  background-size: cover;
+  background-position: 50%;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), image-set(url("../../images/images/home/showcase@2x.webp") 2x, url("../../images/images/home/showcase.webp") 1x, url("../../images/images/home/showcase@2x.jpg") 2x, url("../../images/images/home/showcase.jpg") 1x);
 }
 @media screen and (min-width: 768px) {
@@ -24,6 +24,19 @@
   }
 }
 
+.header-logo {
+  display: flex;
+  align-items: baseline;
+  filter: brightness(1);
+  transition: filter 250ms linear;
+  transition: scale 250ms linear;
+}
+.header-logo:hover, .header-logo:focus {
+  cursor: pointer;
+  scale: 1.2;
+  filter: brightness(1.3);
+}
+
 .logo {
   width: 40px;
   height: 31px;
@@ -38,14 +51,6 @@
   .logo {
     margin-right: 4px;
   }
-}
-
-.header-logo {
-  display: flex;
-  align-items: baseline;
-}
-.header-logo:hover, .header-logo:focus {
-  cursor: pointer;
 }
 
 .logo-text {
@@ -76,9 +81,25 @@
   font-weight: 400;
   line-height: 1.361;
   text-transform: capitalize;
+  transition: color 250ms linear;
+  position: relative;
+}
+.menu-item:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -10px;
+  width: 0;
+  height: 2px;
+  background-color: rgb(40, 167, 69);
+  transition: width 250ms linear;
 }
 .menu-item:hover, .menu-item:focus {
   cursor: pointer;
+  color: rgb(40, 167, 69);
+}
+.menu-item:hover:after, .menu-item:focus:after {
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .menu-item {

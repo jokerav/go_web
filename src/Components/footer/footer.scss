@@ -19,7 +19,7 @@ padding-top: 20px;
   height: 35px;
   width: 35px;
   fill: $text-light;
-  transition: fill 400ms linear;
+  transition: fill $duration linear;
   &:hover,
   &:focus{
     cursor: pointer;
