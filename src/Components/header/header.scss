@@ -36,7 +36,7 @@
   transition: scale $duration linear;
   &:hover, &:focus {
     cursor: pointer;
-    scale: 1.2;
+    scale: 1.1;
   filter: brightness(1.3);
   }
 
@@ -101,7 +101,6 @@
     &:after{
       width: 100%;
     }
-
   }
   @media screen and (min-width: 768px) {
     font-size: 18px;
