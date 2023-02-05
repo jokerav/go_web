@@ -61,8 +61,12 @@
 
 .team-list {
   @media screen and (min-width: 768px) {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 18px;
+  }
+  @media screen and (min-width: 1360px){
+    column-gap: 20px;
   }
 }
 
@@ -71,11 +75,10 @@
   &:last-child {
     margin-bottom: 0px;
   }
-
   @media screen and (min-width: 768px) {
     margin-bottom: 0px;
     &:not(:last-child) {
-      margin-right: 18px;
+      //margin-right: 18px;
     }
   }
 }
@@ -87,6 +90,7 @@
   line-height: 1.35;
   text-align: center;
   margin-bottom: 8px;
+  //max-width: 100%;
   @media screen and (min-width: 768px) {
     font-size: 32px;
     line-height: 1.0;
@@ -101,9 +105,7 @@
   text-align: center;
   @media screen and (min-width: 768px) {
     font-size: 18px;
-
   }
-
 }
 
 .team-photo {
@@ -113,7 +115,6 @@
     width: 223px;
   }
   @media screen and (min-width: 1360px) {
-    width: 480px;
+    width: 421px;
   }
-
 }

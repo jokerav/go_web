@@ -73,8 +73,14 @@
 
 @media screen and (min-width: 768px) {
   .team-list {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 18px;
+  }
+}
+@media screen and (min-width: 1360px) {
+  .team-list {
+    column-gap: 20px;
   }
 }
 
@@ -87,9 +93,6 @@
 @media screen and (min-width: 768px) {
   .team-item {
     margin-bottom: 0px;
-  }
-  .team-item:not(:last-child) {
-    margin-right: 18px;
   }
 }
 
@@ -132,7 +135,7 @@
 }
 @media screen and (min-width: 1360px) {
   .team-photo {
-    width: 480px;
+    width: 421px;
   }
 }
 
