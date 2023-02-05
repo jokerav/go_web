@@ -30,6 +30,7 @@
 
 .contact-inner {
   background-color: rgb(244, 244, 244);
+  width: 100%;
 }
 @media screen and (min-width: 768px) {
   .contact-inner {
@@ -48,6 +49,7 @@
 
 .contact-form {
   padding-top: 51px;
+  box-sizing: border-box;
 }
 @media screen and (min-width: 768px) {
   .contact-form {
@@ -93,8 +95,14 @@
   line-height: 1.4375;
   text-align: left;
   outline: none;
+  box-sizing: border-box;
 }
 @media screen and (min-width: 768px) {
+  .form-input {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1360px) {
   .form-input {
     font-size: 16px;
   }

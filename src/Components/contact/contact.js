@@ -18,8 +18,8 @@ const Contact = () => {
             </Container>
             </div>
 
-    {/*</div>*/
-    }
+
+
 </section>
 )
 }

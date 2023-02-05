@@ -28,9 +28,10 @@
     width: calc(100% - 690px);
   }
 }
-.contact-inner{
-  background-color: $bcg-dark;
 
+.contact-inner {
+  background-color: $bcg-dark;
+  width: 100%;
   @media screen and (min-width: 768px) {
     width: 400px;
   }
@@ -38,14 +39,14 @@
     width: 690px;
   }
 }
-.contact-container{
-  box-sizing: border-box;
 
+.contact-container {
+  box-sizing: border-box;
 }
 
 .contact-form {
-
   padding-top: 51px;
+  box-sizing: border-box;
   @media screen and (min-width: 768px) {
     padding-top: 32px;
     padding-bottom: 33px;
@@ -74,6 +75,7 @@
 .form-input {
   display: block;
   width: 100%;
+
   border: 1px solid $input-border;
   border-radius: 5px;
   padding: 16px 8px 16px 8px;
@@ -83,10 +85,14 @@
   line-height: 1.4375;
   text-align: left;
   outline: none;
+  box-sizing: border-box;
   @media screen and (min-width: 768px) {
     font-size: 16px;
   }
- }
+  @media screen and (min-width: 1360px) {
+    font-size: 16px;
+  }
+}
 
 .input-name {
   margin-bottom: 32px;
