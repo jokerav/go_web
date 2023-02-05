@@ -28,19 +28,22 @@
   }
 }
 
-.contact-container {
-  box-sizing: border-box;
+.contact-inner {
   background-color: rgb(244, 244, 244);
 }
 @media screen and (min-width: 768px) {
-  .contact-container {
+  .contact-inner {
     width: 400px;
   }
 }
 @media screen and (min-width: 1360px) {
-  .contact-container {
+  .contact-inner {
     width: 690px;
   }
+}
+
+.contact-container {
+  box-sizing: border-box;
 }
 
 .contact-form {

@@ -7,6 +7,7 @@ const Contact = () => {
     return (
         <section className='contact'>
             <div className='contact-pic'></div>
+            <div className='contact-inner'>
             <Container nameClass='contact-container'>
                 <form className='contact-form'>
                     <p className='form-title'>Request Callback</p>
@@ -15,8 +16,11 @@ const Contact = () => {
                     <Button type='submit' nameClass='contactsBtn'>Send</Button>
                 </form>
             </Container>
-            {/*</div>*/}
-        </section>
-    )
+            </div>
+
+    {/*</div>*/
+    }
+</section>
+)
 }
 export default Contact

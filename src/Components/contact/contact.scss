@@ -28,9 +28,9 @@
     width: calc(100% - 690px);
   }
 }
-.contact-container{
-  box-sizing: border-box;
+.contact-inner{
   background-color: $bcg-dark;
+
   @media screen and (min-width: 768px) {
     width: 400px;
   }
@@ -38,9 +38,13 @@
     width: 690px;
   }
 }
+.contact-container{
+  box-sizing: border-box;
+
+}
+
 .contact-form {
-  //display: block;
-  //width: auto;
+
   padding-top: 51px;
   @media screen and (min-width: 768px) {
     padding-top: 32px;
