@@ -6,16 +6,32 @@ import {ReactComponent as LinkedInLogo} from '../../images/images/socials/linkdl
 
 const Footer = () => {
     return (
-        <section className='footer'>
+        <footer className='footer'>
             <ul className='social'>
-                <li className='footer-social-item'><FacebookLogo className='social-icon'/></li>
-                <li className='footer-social-item'><YouTubeLogo className='social-icon'/></li>
-                <li className='footer-social-item'><TwitterLogo className='social-icon'/></li>
-                <li className='footer-social-item'><LinkedInLogo className='social-icon'/></li>
+                <li className='footer-social-item'>
+                    <a className='social-link' href='##'>
+                        <FacebookLogo className='social-icon'/>
+                    </a>
+                </li>
+                <li className='footer-social-item'>
+                    <a className='social-link' href='##'><YouTubeLogo
+                        className='social-icon'/>
+                    </a>
+                </li>
+                <li className='footer-social-item'>
+                    <a className='social-link' href='##'><TwitterLogo
+                        className='social-icon'/>
+                    </a>
+                </li>
+                <li className='footer-social-item'>
+                    <a className='social-link' href='##'> <LinkedInLogo
+                        className='social-icon'/>
+                    </a>
+                </li>
             </ul>
 
             <p className='copyright'>Copyright © 2021 - FinanceLedger</p>
-        </section>
+        </footer>
     )
 }
 export default Footer
