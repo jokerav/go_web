@@ -29,7 +29,10 @@
   }
 }
 
-.contact-inner {
+
+
+.contact-container {
+  box-sizing: border-box;
   background-color: $bcg-dark;
   width: 100%;
   @media screen and (min-width: 768px) {
@@ -38,10 +41,6 @@
   @media screen and (min-width: 1360px) {
     width: 690px;
   }
-}
-
-.contact-container {
-  box-sizing: border-box;
 }
 
 .contact-form {
