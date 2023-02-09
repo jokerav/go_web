@@ -5,7 +5,6 @@ import Button from "../shared/button/button";
 import {ReactComponent as Vector} from '../../images/Vector.svg';
 
 const Header = () => {
-
     return (
         <header className='header'>
             <Container>
@@ -19,7 +18,7 @@ const Header = () => {
                         <li className='menu-item'>About</li>
                         <li className='menu-item'><a href="#cases">Cases</a></li>
                         <li className='menu-item'><a href='#blog'>Blog</a></li>
-                        <li className='menu-item'><a href='#contacts'>Contact</a></li>
+                        <li className='menu-item'><a href='#contact'>Contact</a></li>
                     </ul>
                 </div>
                 <div className="hero">

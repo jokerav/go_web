@@ -5,7 +5,7 @@ import Button from "../shared/button/button";
 
 const Contact = () => {
     return (
-        <section className='contact'>
+        <section className='contact' id='contact'>
             <div className='contact-pic'></div>
 
             <Container nameClass='contact-container'>
