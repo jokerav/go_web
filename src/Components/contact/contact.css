@@ -28,18 +28,18 @@
   }
 }
 
-.contact-container {
+npm install netlify-cli -g .contact-container {
   box-sizing: border-box;
   background-color: rgb(244, 244, 244);
   width: 100%;
 }
 @media screen and (min-width: 768px) {
-  .contact-container {
+  npm install netlify-cli -g .contact-container {
     width: 400px;
   }
 }
 @media screen and (min-width: 1360px) {
-  .contact-container {
+  npm install netlify-cli -g .contact-container {
     width: 690px;
   }
 }
