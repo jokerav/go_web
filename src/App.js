@@ -5,17 +5,12 @@ import Blog from "./Components/blog/blog";
 import Team from "./Components/team/team";
 import Contact from "./Components/contact/contact";
 import Footer from "./Components/footer/footer";
-
-import React from "react";
-
 import ToTopBtn from "./Components/shared/toTopBtn";
 
 
 function App() {
     return (
-
         <div className="App">
-
                 <Header/>
                 <Solutions/>
                 <Cases/>

@@ -126,8 +126,16 @@
 .contactsBtn {
   width: 155px;
   height: 57px;
+  color: rgb(255, 255, 255);
   background-color: rgb(40, 167, 69);
   border: none;
+  transition: background-color 250ms linear;
+  transition: color 250ms linear;
+}
+.contactsBtn:hover, .contactsBtn:focus {
+  cursor: pointer;
+  background-color: rgba(40, 167, 69, 0);
+  color: rgb(40, 167, 69);
 }
 
 /*# sourceMappingURL=contact.css.map */

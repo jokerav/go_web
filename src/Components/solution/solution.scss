@@ -95,4 +95,13 @@
   width: 146px;
   border: 1px solid $text-light;
   background-color: $accent-green;
+  transition: background-color $duration linear;
+  transition: border $duration linear;
+  transition: color $duration linear;
+  &:hover,
+  &:focus{
+    background-color: $text-light;
+    border: $accent-green;
+    color: $accent-green;
+  }
 }

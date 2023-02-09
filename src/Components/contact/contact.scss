@@ -107,6 +107,15 @@
 .contactsBtn {
   width: 155px;
   height: 57px;
+  color: $text-light;
   background-color: $accent-green;
   border: none;
+  transition: background-color $duration linear;
+  transition: color $duration linear;
+  &:hover,
+  &:focus{
+    cursor: pointer;
+    background-color: rgba(40, 167, 69, 0);
+    color: $accent-green;
+  }
 }

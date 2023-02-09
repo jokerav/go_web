@@ -167,4 +167,10 @@
   border: none;
   border-radius: 5px;
   background-color: $accent-green;
+  transition: background-color $duration linear;
+  &:hover,
+  &:focus{
+    cursor: pointer;
+    background-color: rgba(40, 167, 69, 0);
+  }
 }

@@ -108,6 +108,14 @@
   width: 146px;
   border: 1px solid rgb(255, 255, 255);
   background-color: rgb(40, 167, 69);
+  transition: background-color 250ms linear;
+  transition: border 250ms linear;
+  transition: color 250ms linear;
+}
+.solution-btn:hover, .solution-btn:focus {
+  background-color: rgb(255, 255, 255);
+  border: rgb(40, 167, 69);
+  color: rgb(40, 167, 69);
 }
 
 /*# sourceMappingURL=solution.css.map */

@@ -109,6 +109,14 @@
   width: 146px;
   border: 1px solid rgb(255, 255, 255);
   background-color: rgb(2, 132, 208);
+  transition: background-color 250ms linear;
+  transition: border 250ms linear;
+  transition: color 250ms linear;
+}
+.blog-btn:hover, .blog-btn:focus {
+  background-color: rgb(255, 255, 255);
+  border: rgb(2, 132, 208);
+  color: rgb(2, 132, 208);
 }
 
 /*# sourceMappingURL=blog.css.map */

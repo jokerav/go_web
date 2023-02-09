@@ -183,6 +183,11 @@
   border: none;
   border-radius: 5px;
   background-color: rgb(40, 167, 69);
+  transition: background-color 250ms linear;
+}
+.hero-btn:hover, .hero-btn:focus {
+  cursor: pointer;
+  background-color: rgba(40, 167, 69, 0);
 }
 
 /*# sourceMappingURL=header.css.map */
