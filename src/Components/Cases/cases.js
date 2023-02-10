@@ -44,6 +44,7 @@ const Cases = () => {
         toggler: false,
         slide: 1
     });
+
     function openLightboxOnSlide(number) {
         setLightboxController({
             toggler: !lightboxController.toggler,
