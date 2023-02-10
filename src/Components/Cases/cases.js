@@ -31,6 +31,10 @@ import cases6wp from '../../images/images/cases/cases6.webp'
 import cases62x from '../../images/images/cases/cases6@2x.jpg'
 import cases62xwp from '../../images/images/cases/cases6@2x.webp'
 
+import cases72xwp from '../../images/images/cases/cases7@2x.webp'
+import cases82xwp from '../../images/images/cases/cases8@2x.webp'
+
+
 import React, {useState} from "react";
 import FsLightbox from "fslightbox-react";
 
@@ -49,42 +53,48 @@ const Cases = () => {
                         <picture>
                             <source srcSet={`${cases12xwp} 2x, ${cases1wp} 1x, ${cases12x} 2x, ${cases1} 1x`}
                             />
-                            <img src="#" alt="Пример кейса" className="cases-image" onClick={() => setToggler(!toggler)}/>
+                            <img src="#" alt="Пример кейса" className="cases-image"
+                                 onClick={() => setToggler(!toggler)}/>
                         </picture>
                     </li>
                     <li className='cases-item'>
                         <picture className='picture'>
                             <source srcSet={`${cases22xwp} 2x, ${cases2wp} 1x, ${cases22x} 2x, ${cases2} 1x`}
                             />
-                            <img src="#" alt="Пример кейса" className="cases-image" onClick={() => setToggler(!toggler)}/>
+                            <img src="#" alt="Пример кейса" className="cases-image"
+                                 onClick={() => setToggler(!toggler)}/>
                         </picture>
                     </li>
                     <li className='cases-item'>
                         <picture className='picture'>
                             <source srcSet={`${cases32xwp} 2x, ${cases3wp} 1x, ${cases32x} 2x, ${cases3} 1x`}
                             />
-                            <img src="#" alt="Пример кейса" className="cases-image" onClick={() => setToggler(!toggler)}/>
+                            <img src="#" alt="Пример кейса" className="cases-image"
+                                 onClick={() => setToggler(!toggler)}/>
                         </picture>
                     </li>
                     <li className='cases-item'>
                         <picture className='picture'>
                             <source srcSet={`${cases42xwp} 2x, ${cases4wp} 1x, ${cases42x} 2x, ${cases4} 1x`}
                             />
-                            <img src="#" alt="Пример кейса" className="cases-image" onClick={() => setToggler(!toggler)}/>
+                            <img src="#" alt="Пример кейса" className="cases-image"
+                                 onClick={() => setToggler(!toggler)}/>
                         </picture>
                     </li>
                     <li className='cases-item'>
                         <picture className='picture'>
                             <source srcSet={`${cases52xwp} 2x, ${cases5wp} 1x, ${cases52x} 2x, ${cases5} 1x`}
                             />
-                            <img src="#" alt="Пример кейса" className="cases-image" onClick={() => setToggler(!toggler)}/>
+                            <img src="#" alt="Пример кейса" className="cases-image"
+                                 onClick={() => setToggler(!toggler)}/>
                         </picture>
                     </li>
                     <li className='cases-item'>
                         <picture className='picture'>
                             <source srcSet={`${cases62xwp} 2x, ${cases6wp} 1x, ${cases62x} 2x, ${cases6} 1x`}
                             />
-                            <img src="#" alt="Пример кейса" className="cases-image" onClick={() => setToggler(!toggler)}/>
+                            <img src="#" alt="Пример кейса" className="cases-image"
+                                 onClick={() => setToggler(!toggler)}/>
                         </picture>
                     </li>
                 </ul>
@@ -92,7 +102,14 @@ const Cases = () => {
             <FsLightbox
                 toggler={toggler}
                 sources={[
-                    cases12xwp, cases22xwp, cases32xwp, cases42xwp, cases52xwp, cases62xwp
+                    cases12xwp,
+                    cases22xwp,
+                    cases32xwp,
+                    cases42xwp,
+                    cases52xwp,
+                    cases62xwp,
+                    cases72xwp,
+                    cases82xwp
                 ]}
             />
         </section>
