@@ -128,6 +128,9 @@
 .team-photo {
   width: 280px;
   margin-bottom: 16px;
+  transition: scale 250ms linear;
+  transition: filter 250ms linear;
+  transition: scale 250ms linear;
 }
 @media screen and (min-width: 768px) {
   .team-photo {
@@ -138,6 +141,11 @@
   .team-photo {
     width: 421px;
   }
+}
+.team-photo:hover, .team-photo:focus {
+  box-shadow: 10px 15px 15px rgb(40, 167, 69);
+  filter: opacity(60%);
+  scale: 1.1;
 }
 
 /*# sourceMappingURL=team.css.map */

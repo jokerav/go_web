@@ -112,10 +112,19 @@
 .team-photo {
   width: 280px;
   margin-bottom: 16px;
+  transition: scale $duration linear;
+  transition: filter $duration linear;
+  transition: scale $duration linear;
   @media screen and (min-width: 768px) {
     width: 223px;
   }
   @media screen and (min-width: 1360px) {
     width: 421px;
+  }
+  &:hover,
+  &:focus{
+    box-shadow: 10px 15px 15px $accent-green;
+    filter: opacity(60%);
+    scale: 1.1;
   }
 }
