@@ -1,4 +1,5 @@
 .contact {
+  background-color: rgb(244, 244, 244);
   padding-bottom: 25px;
 }
 @media screen and (min-width: 768px) {
@@ -30,7 +31,6 @@
 
 .contact-container {
   box-sizing: border-box;
-  background-color: rgb(244, 244, 244);
   width: 100%;
 }
 @media screen and (min-width: 768px) {
@@ -136,6 +136,22 @@
   cursor: pointer;
   background-color: rgba(40, 167, 69, 0);
   color: rgb(40, 167, 69);
+}
+
+.inputs-container {
+  position: relative;
+}
+
+.err-name {
+  position: absolute;
+  top: 60px;
+  left: 5px;
+}
+
+.err-email {
+  position: absolute;
+  top: 150px;
+  left: 5px;
 }
 
 /*# sourceMappingURL=contact.css.map */

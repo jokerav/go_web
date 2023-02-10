@@ -32,26 +32,26 @@ const Contact = () => {
                       data-netlify="true" data-netlify-honeypot="bot-field">
                     <input type="hidden" name="form-name" value="contact"/>
                     <p className='form-title'>Request Callback</p>
+                    <div className='inputs-container'>
                     <input
-                        name='name'
                         className='form-input input-name'
                         id="name"
                         name="name"
                         onChange={formik.handleChange}
                         value={formik.values.name}
                     />
-                    {formik.touched.lastName && formik.errors.lastName ? (
-                        <div>{formik.errors.name}</div>
+                    {formik.touched.name && formik.errors.name ? (
+                        <div className='err-name'>{formik.errors.name}</div>
                     ) : null}
                     <input name='email'
                            className='form-input input-email'
                            id="email"
-                           name="email"
                            onChange={formik.handleChange}
                            value={formik.values.email}/>
                     {formik.touched.email && formik.errors.email ? (
-                        <div><WarningIcon/><span>This is a required field</span></div>
+                        <div className='err-email'><WarningIcon/><span>{formik.errors.email}</span></div>
                     ) : null}
+                    </div>
                     <Button type='submit' nameClass='contactsBtn'>Send</Button>
                 </form>
             </Container>
