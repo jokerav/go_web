@@ -39,7 +39,17 @@ import React, {useState} from "react";
 import FsLightbox from "fslightbox-react";
 
 const Cases = () => {
-    const [toggler, setToggler] = useState(false);
+    // const [toggler, setToggler] = useState(false);
+    const [lightboxController, setLightboxController] = useState({
+        toggler: false,
+        slide: 1
+    });
+    function openLightboxOnSlide(number) {
+        setLightboxController({
+            toggler: !lightboxController.toggler,
+            slide: number
+        });
+    }
 
     return (
         <section className='cases' id='cases'>
@@ -54,7 +64,7 @@ const Cases = () => {
                             <source srcSet={`${cases12xwp} 2x, ${cases1wp} 1x, ${cases12x} 2x, ${cases1} 1x`}
                             />
                             <img src="#" alt="Пример кейса" className="cases-image"
-                                 onClick={() => setToggler(!toggler)}/>
+                                 onClick={() => openLightboxOnSlide(1)}/>
                         </picture>
                     </li>
                     <li className='cases-item'>
@@ -62,7 +72,7 @@ const Cases = () => {
                             <source srcSet={`${cases22xwp} 2x, ${cases2wp} 1x, ${cases22x} 2x, ${cases2} 1x`}
                             />
                             <img src="#" alt="Пример кейса" className="cases-image"
-                                 onClick={() => setToggler(!toggler)}/>
+                                 onClick={() => openLightboxOnSlide(2)}/>
                         </picture>
                     </li>
                     <li className='cases-item'>
@@ -70,7 +80,7 @@ const Cases = () => {
                             <source srcSet={`${cases32xwp} 2x, ${cases3wp} 1x, ${cases32x} 2x, ${cases3} 1x`}
                             />
                             <img src="#" alt="Пример кейса" className="cases-image"
-                                 onClick={() => setToggler(!toggler)}/>
+                                 onClick={() => openLightboxOnSlide(3)}/>
                         </picture>
                     </li>
                     <li className='cases-item'>
@@ -78,7 +88,7 @@ const Cases = () => {
                             <source srcSet={`${cases42xwp} 2x, ${cases4wp} 1x, ${cases42x} 2x, ${cases4} 1x`}
                             />
                             <img src="#" alt="Пример кейса" className="cases-image"
-                                 onClick={() => setToggler(!toggler)}/>
+                                 onClick={() => openLightboxOnSlide(4)}/>
                         </picture>
                     </li>
                     <li className='cases-item'>
@@ -86,7 +96,7 @@ const Cases = () => {
                             <source srcSet={`${cases52xwp} 2x, ${cases5wp} 1x, ${cases52x} 2x, ${cases5} 1x`}
                             />
                             <img src="#" alt="Пример кейса" className="cases-image"
-                                 onClick={() => setToggler(!toggler)}/>
+                                 onClick={() => openLightboxOnSlide(5)}/>
                         </picture>
                     </li>
                     <li className='cases-item'>
@@ -94,13 +104,13 @@ const Cases = () => {
                             <source srcSet={`${cases62xwp} 2x, ${cases6wp} 1x, ${cases62x} 2x, ${cases6} 1x`}
                             />
                             <img src="#" alt="Пример кейса" className="cases-image"
-                                 onClick={() => setToggler(!toggler)}/>
+                                 onClick={() => openLightboxOnSlide(6)}/>
                         </picture>
                     </li>
                 </ul>
             </Container>
             <FsLightbox
-                toggler={toggler}
+                toggler={lightboxController.toggler}
                 sources={[
                     cases12xwp,
                     cases22xwp,
@@ -111,6 +121,7 @@ const Cases = () => {
                     cases72xwp,
                     cases82xwp
                 ]}
+                slide={lightboxController.slide}
             />
         </section>
     )
