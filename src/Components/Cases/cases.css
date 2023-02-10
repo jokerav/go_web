@@ -93,6 +93,11 @@
 
 .cases-image {
   width: 100%;
+  transition: scale 250ms linear;
+}
+.cases-image:hover, .cases-image:focus {
+  cursor: pointer;
+  scale: 1.05;
 }
 .cases-image:not(:last-child) {
   margin-bottom: 8px;

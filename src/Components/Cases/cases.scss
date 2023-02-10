@@ -71,6 +71,12 @@ color: $text-dark;
 }
 .cases-image{
   width: 100%;
+  transition: scale $duration linear;
+  &:hover,
+  &:focus{
+    cursor: pointer;
+    scale: 1.05;
+  }
   &:not(:last-child){
     margin-bottom: 8px;
   };
