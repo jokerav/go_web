@@ -16,6 +16,11 @@ import person3wp from '../../images/images/team/person3.webp'
 import person3jpeg2x from '../../images/images/team/person3@2x.jpg'
 import person3jpeg from '../../images/images/team/person3.jpg'
 
+import {ReactComponent as FacebookLogo} from '../../images/images/socials/facebook.svg';
+import {ReactComponent as YouTubeLogo} from '../../images/images/socials/youtube.svg';
+import {ReactComponent as TwitterLogo} from '../../images/images/socials/twitter.svg';
+import {ReactComponent as LinkedInLogo} from '../../images/images/socials/linkdln.svg';
+
 const Team = () => {
     return (
         <section className='team'>
@@ -26,32 +31,104 @@ const Team = () => {
                     sapiente!</p>
                 <ul className='team-list'>
                     <li className='team-item'>
+                        <div className='picture-container'>
                             <picture>
                                 <source
                                     srcSet={`${person1wp2x} 2x, ${person1jpeg2x} 2x, ${person1wp} 1x, ${person1jpeg} 1x`}
                                 />
                                 <img src="#" alt='фото сотрудника' className='team-photo'/>
                             </picture>
+                            <div className='team-social-list'>
+                                <div className='team-social-item'>
+                                    <a className='social-link' href='##'>
+                                        <FacebookLogo className='team-social-icon'/>
+                                    </a>
+                                </div>
+                                <div className='team-social-item'>
+                                    <a className='social-link' href='##'><YouTubeLogo
+                                        className='team-social-icon'/>
+                                    </a>
+                                </div>
+                                <div className='team-social-item'>
+                                    <a className='social-link' href='##'><TwitterLogo
+                                        className='team-social-icon'/>
+                                    </a>
+                                </div>
+                                <div className='team-social-item'>
+                                    <a className='social-link' href='##'> <LinkedInLogo
+                                        className='team-social-icon'/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                         <p className='team-name'>John Doe</p>
                         <p className='team-position'>President</p>
                     </li>
                     <li className='team-item'>
-                        <picture>
-                            <source
-                                srcSet={`${person2wp2x} 2x, ${person2jpeg2x} 2x, ${person2wp} 1x, ${person2jpeg} 1x`}
-                            />
-                            <img src="#" alt='фото сотрудника' className='team-photo'/>
-                        </picture>
+                        <div className='picture-container'>
+                            <picture>
+                                <source
+                                    srcSet={`${person2wp2x} 2x, ${person2jpeg2x} 2x, ${person2wp} 1x, ${person2jpeg} 1x`}
+                                />
+                                <img src="#" alt='фото сотрудника' className='team-photo'/>
+                            </picture>
+                            <div className='team-social-list'>
+                                <div className='team-social-item'>
+                                    <a className='social-link' href='##'>
+                                        <FacebookLogo className='team-social-icon'/>
+                                    </a>
+                                </div>
+                                <div className='team-social-item'>
+                                    <a className='social-link' href='##'><YouTubeLogo
+                                        className='team-social-icon'/>
+                                    </a>
+                                </div>
+                                <div className='team-social-item'>
+                                    <a className='social-link' href='##'><TwitterLogo
+                                        className='team-social-icon'/>
+                                    </a>
+                                </div>
+                                <div className='team-social-item'>
+                                    <a className='social-link' href='##'> <LinkedInLogo
+                                        className='team-social-icon'/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                         <p className='team-name'>Jane Doe</p>
                         <p className='team-position'>Vice President</p>
                     </li>
                     <li className='team-item'>
-                        <picture>
-                            <source
-                                srcSet={`${person3wp2x} 2x, ${person3jpeg2x} 2x, ${person3wp} 1x, ${person3jpeg} 1x`}
-                            />
-                            <img src="#" alt='фото сотрудника' className='team-photo'/>
-                        </picture>
+                        <div className='picture-container'>
+                            <picture>
+                                <source
+                                    srcSet={`${person3wp2x} 2x, ${person3jpeg2x} 2x, ${person3wp} 1x, ${person3jpeg} 1x`}
+                                />
+                                <img src="#" alt='фото сотрудника' className='team-photo'/>
+                            </picture>
+                            <div className='team-social-list'>
+                                <div className='team-social-item'>
+                                    <a className='social-link' href='##'>
+                                        <FacebookLogo className='team-social-icon'/>
+                                    </a>
+                                </div>
+                                <div className='team-social-item'>
+                                    <a className='social-link' href='##'><YouTubeLogo
+                                        className='team-social-icon'/>
+                                    </a>
+                                </div>
+                                <div className='team-social-item'>
+                                    <a className='social-link' href='##'><TwitterLogo
+                                        className='team-social-icon'/>
+                                    </a>
+                                </div>
+                                <div className='team-social-item'>
+                                    <a className='social-link' href='##'> <LinkedInLogo
+                                        className='team-social-icon'/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                         <p className='team-name'>Steve Smith</p>
                         <p className='team-position'>Marketing Head</p>
                     </li>
