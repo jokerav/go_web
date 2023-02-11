@@ -111,13 +111,12 @@
   color: $text-light;
   background-color: $accent-green;
   border: none;
-  transition: background-color $duration linear;
-  transition: color $duration linear;
+  transition: background-color $duration ease-in-out;
+  //transition: color $duration ease-in-out;
   &:hover,
   &:focus{
     cursor: pointer;
-    background-color: rgba(40, 167, 69, 0);
-    color: $accent-green;
+    background-color: $accent-green-hover;
   }
 }
 .inputs-container{

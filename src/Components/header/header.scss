@@ -32,8 +32,8 @@
   display: flex;
   align-items: baseline;
   filter: brightness(1);
-  transition: filter $duration linear;
-  transition: scale $duration linear;
+  transition: filter $duration ease-in-out;
+  transition: scale $duration ease-in-out;
   &:hover, &:focus {
     cursor: pointer;
     scale: 1.1;
@@ -70,7 +70,6 @@
 }
 
 .hero {
-
 }
 
 .menu-list {
@@ -83,7 +82,7 @@
   font-weight: 400;
   line-height: 1.361;
   text-transform: capitalize;
-  transition: color $duration linear;
+  transition: color $duration ease-in-out;
   position: relative;
   &:after{
     content: '';
@@ -93,7 +92,7 @@
     width: 0;
     height: 2px;
     background-color: $accent-green;
-    transition: width $duration linear;
+    transition: width $duration ease-in-out;
   }
   &:hover, &:focus {
     cursor: pointer;
@@ -163,14 +162,14 @@
 
 .hero-btn {
   width: 175px;
+  background-color: $accent-green;
   margin: 0 auto;
   border: none;
   border-radius: 5px;
-  background-color: $accent-green;
-  transition: background-color $duration linear;
+  transition: background-color $duration ease-in-out;
   &:hover,
   &:focus{
     cursor: pointer;
-    background-color: rgba(40, 167, 69, 0);
+    background-color: $accent-green-hover;
   }
 }

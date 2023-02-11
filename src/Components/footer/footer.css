@@ -23,7 +23,7 @@
   height: 35px;
   width: 35px;
   fill: rgb(255, 255, 255);
-  transition: fill 250ms linear;
+  transition: fill 300ms ease-in-out;
 }
 .social-icon:hover, .social-icon:focus {
   cursor: pointer;

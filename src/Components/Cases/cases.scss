@@ -71,7 +71,7 @@ color: $text-dark;
 }
 .cases-image{
   width: 100%;
-  transition: scale $duration linear;
+  transition: scale $duration ease-in-out;
   &:hover,
   &:focus{
     cursor: pointer;

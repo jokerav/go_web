@@ -1,5 +1,7 @@
+@import "../../../vars";
 .btn{
   display: block;
+  color: $text-light;
   padding-top: 16px;
   padding-bottom: 16px;
   font-weight: 400;
@@ -7,7 +9,6 @@
   line-height: 1.388;
    text-align: center;
   border-radius: 5px;
-  color: #FFFFFF;
   height: 57px;
   outline: none;
   &:hover, &:focus{

@@ -93,7 +93,7 @@
 
 .cases-image {
   width: 100%;
-  transition: scale 250ms linear;
+  transition: scale 300ms ease-in-out;
 }
 .cases-image:hover, .cases-image:focus {
   cursor: pointer;

@@ -35,11 +35,10 @@ import cases72xwp from '../../images/images/cases/cases7@2x.webp'
 import cases82xwp from '../../images/images/cases/cases8@2x.webp'
 
 
-import React, {useState} from "react";
+import {useState} from "react";
 import FsLightbox from "fslightbox-react";
 
 const Cases = () => {
-    // const [toggler, setToggler] = useState(false);
     const [lightboxController, setLightboxController] = useState({
         toggler: false,
         slide: 1
