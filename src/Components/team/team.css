@@ -130,6 +130,7 @@
   margin-bottom: 16px;
   transition: scale 300ms ease-in-out;
   transition: box-shadow 300ms ease-in-out;
+  transition: filter 300ms ease-in-out;
 }
 @media screen and (min-width: 768px) {
   .team-photo {
@@ -144,6 +145,7 @@
 .team-photo:hover, .team-photo:focus {
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   scale: 1.1;
+  filter: brightness(0.6);
 }
 
 /*# sourceMappingURL=team.css.map */
