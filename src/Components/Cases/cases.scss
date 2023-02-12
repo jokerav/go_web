@@ -72,10 +72,13 @@ color: $text-dark;
 .cases-image{
   width: 100%;
   transition: scale $duration ease-in-out;
+  transition: filter $duration ease-in-out;
   &:hover,
   &:focus{
     cursor: pointer;
     scale: 1.05;
+    filter: brightness(0.6);
+
   }
   &:not(:last-child){
     margin-bottom: 8px;

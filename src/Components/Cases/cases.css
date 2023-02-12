@@ -94,10 +94,12 @@
 .cases-image {
   width: 100%;
   transition: scale 300ms ease-in-out;
+  transition: filter 300ms ease-in-out;
 }
 .cases-image:hover, .cases-image:focus {
   cursor: pointer;
   scale: 1.05;
+  filter: brightness(0.6);
 }
 .cases-image:not(:last-child) {
   margin-bottom: 8px;
