@@ -151,5 +151,10 @@
   top: 150px;
   left: 5px;
 }
+@media screen and (min-width: 768px) {
+  .err-email {
+    top: 130px;
+  }
+}
 
 /*# sourceMappingURL=contact.css.map */

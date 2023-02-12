@@ -112,7 +112,6 @@
   background-color: $accent-green;
   border: none;
   transition: background-color $duration ease-in-out;
-  //transition: color $duration ease-in-out;
   &:hover,
   &:focus{
     cursor: pointer;
@@ -131,4 +130,8 @@ position: relative;
   position: absolute;
   top: 150px;
   left: 5px;
+  @media screen and (min-width: 768px) {
+    top: 130px;
+  }
+
 }
